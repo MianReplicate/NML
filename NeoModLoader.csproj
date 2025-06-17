@@ -22,9 +22,9 @@
 
   <!-- Used for HarmonyPatch, Authentication, Auto-update, Hotfix, Steam workshop-->
     <ItemGroup>
-      <Reference Include="0Harmony">
-        <HintPath>resources\assemblies\0Harmony.dll</HintPath>
-      </Reference>
+        <Reference Include="0Harmony">
+            <HintPath>resources/assemblies/0Harmony.dll</HintPath>
+        </Reference>
         <Reference Include="Mono.Cecil.Pdb">
             <HintPath>resources\assemblies\Mono.Cecil.Pdb.dll</HintPath>
         </Reference>
@@ -130,7 +130,7 @@
   
     <ItemGroup>
       <None Remove="resources\assemblies\0Harmony.dll" />
-      <EmbeddedResource Include="resources\assemblies\0Harmony.dll" />
+        <EmbeddedResource Include="resources\assemblies\0Harmony.dll" />
         <None Remove="resources\assemblies\System.Reflection.Metadata-renamed.dll" />
         <EmbeddedResource Include="resources\assemblies\System.Reflection.Metadata-renamed.dll" />
         <None Remove="resources\assemblies\System.Text.Encoding.CodePages.dll" />
